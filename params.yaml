@@ -1,7 +1,7 @@
 base:
-  project:winquality-project
-  random_state:42
-  target_col:TARGET
+  project: winquality-project
+  random_state: 42
+  target_col: TARGET
 
 data_source:
   s3_source: data_given/winequality.csv
