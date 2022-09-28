@@ -5,15 +5,17 @@ Prediction of the quality of the wine using winequality prediction using mlops
 
 create virtual env
 
-'''bash
-conda create -n wineq python=3.7 -y
-'''
+
+
+    conda create -n wineq python=3.7 -y
+
 
 activate the env
 
-'''Bash
-conda activate wineq
-'''
+
+
+    conda activate wineq
+
 
 Project Organization
 ------------
@@ -86,4 +88,16 @@ dvc add data_given/winequality.csv
 git add .
  
 git commit -m "first commit and add raw data"
+
+onliner updates for readme
+
+git add . && git commit -m 'update Readme.md'
+
+git remote add orgin 
+
+git brach -M main
+
+git push origin main
+
+
 
