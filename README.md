@@ -77,27 +77,40 @@ https://drive.google.com/drive/folders/1xw0XX-WK74uxtFFLySbtnX-ODdmdK5Ec
 
 store it in data_given folder created for it.
 
-git init
+git initialization
 
-pip install dvc
+    git init
+installing dvc
 
-dvc init
 
-dvc add data_given/winequality.csv
+    pip install dvc
 
-git add .
+dvc initialization
+
+
+    dvc init
+
+adding the winequality to the datagiven
+
+    dvc add data_given/winequality.csv
+
+staging the changes to the git 
+
+    git add .
  
-git commit -m "first commit and add raw data"
+commiting the changes
+
+    git commit -m "first commit and add raw data"
 
 onliner updates for readme
 
-git add . && git commit -m 'update Readme.md'
+    git add . && git commit -m 'update Readme.md'
 
-git remote add orgin 
+    git remote add orgin 
 
-git brach -M main
+    git brach -M main
 
-git push origin main
+    git push origin main
 
 
 
