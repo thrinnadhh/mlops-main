@@ -41,8 +41,9 @@ def train_and_evaluate(config_path):
     lr.fit(train_x, train_y)
 
     predicted_qualities = lr.predict(test_x)
+    #print(predicted_qualities)
 
-    #(rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
+    #print(eval_metrics(test_y, predicted_qualities))
     mae = mean_absolute_error(test_y, predicted_qualities)
     rmse = np.sqrt(mean_squared_error(test_y, predicted_qualities))
     r2 = r2_score(test_y, predicted_qualities)

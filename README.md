@@ -87,7 +87,6 @@ installing dvc
 
 dvc initialization
 
-
     dvc init
 
 adding the winequality to the datagiven
@@ -111,6 +110,14 @@ onliner updates for readme
     git brach -M main
 
     git push origin main
+
+creating the params.yaml file
+
+creating the get_data.py for getting the data to read the file data_given/winequality.csv
+
+creating the load_data.py for loading and saving the data in data/raw/winequality.csv
+
+creating the split_data.py for splitting the data and then storing it in train_path and test_path data/processed/train_winequality.csv
 
 
 
