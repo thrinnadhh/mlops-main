@@ -114,3 +114,22 @@ onliner updates for readme
 
 
 
+tox command
+
+    tox
+
+for rebuillding the tox command is
+
+    tox -r
+
+pytest command
+
+    pytest -v
+
+setup commands
+
+    pip install -e .
+
+build your own package commands- standard distribution and build distribution.
+
+    python setup.py sdist bdist_wheel
