@@ -117,9 +117,15 @@ creating the get_data.py for getting the data to read the file data_given/winequ
 
 creating the load_data.py for loading and saving the data in data/raw/winequality.csv
 
+update stages in dvc.yaml file by load_data
+
 creating the split_data.py for splitting the data and then storing it in train_path and test_path data/processed/train_winequality.csv
 
+update the stages in dvc.yaml file by split_data
 
+creating the train_and_evaluate file and store it in saved_models
+
+update the stages in dvc.yaml file by train_and_evaluate along with metrics and params.
 
 tox command
 
