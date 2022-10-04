@@ -7,14 +7,14 @@ create virtual env
 
 
 
-    conda create -n wineq python=3.7 -y
+    conda create -n newvenv python=3.7 -y
 
 
 activate the env
 
 
 
-    conda activate wineq
+    conda activate newvenv
 
 
 Project Organization
@@ -80,8 +80,8 @@ store it in data_given folder created for it.
 git initialization
 
     git init
+    
 installing dvc
-
 
     pip install dvc
 
