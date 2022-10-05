@@ -92,7 +92,6 @@ pycparser==2.21
 pydantic==1.10.2
 pydot==1.4.2
 PyDrive2==1.14.0
-pyflakes==2.3.1
 pygit2==1.10.1
 Pygments==2.13.0
 pygtrie==2.5.0
