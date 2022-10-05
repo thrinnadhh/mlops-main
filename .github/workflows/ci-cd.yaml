@@ -37,9 +37,9 @@ jobs:
         pytest -v
     - name: Deploy to Heroku
       env:
-        HEROKU_API_TOKEN: ${{ aa2b582c-fa69-4c2b-aa51-81038401a275 }}
+        HEROKU_API_TOKEN: ${{ 'aa2b582c-fa69-4c2b-aa51-81038401a275' }}
         HEROKU_APP_NAME: ${{ wine-quality369 }}
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
-        git remote add heroku https://heroku:$aa2b582c-fa69-4c2b-aa51-81038401a275@git.heroku.com/$HEROKU_APP_NAME.git
+        git remote add heroku https://heroku:$'aa2b582c-fa69-4c2b-aa51-81038401a275'@git.heroku.com/$HEROKU_APP_NAME.git
         git push heroku HEAD:main -f
