@@ -14,3 +14,5 @@ pytest
 tox
 dvc
 dvc[gdrive]
+flask
+gunicorn
