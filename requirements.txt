@@ -12,7 +12,6 @@ autocommand==2.2.1
 Babel==2.10.3
 cached-property==1.5.2
 cachetools==5.2.0
-certifi @ file:///C:/b/abs_4f5wo627a3/croots/recipe/certifi_1663615677642/work/certifi
 cffi==1.15.1
 charset-normalizer==2.1.1
 click==8.1.3
