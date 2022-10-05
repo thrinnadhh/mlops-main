@@ -31,7 +31,6 @@ dvc==2.10.2
 dvc-render==0.0.5
 dvclive==0.9.0
 filelock==3.8.0
-flake8==3.9.2
 Flask==2.2.2
 flatten-dict==0.4.2
 flufl.lock==7.1.1
